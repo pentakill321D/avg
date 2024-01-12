@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*Giup trang tri cho cac the html
+/* css selceter
+/* chi ra the nao can style*/
+* {
+    font-family: 'Roboto', sans-serif;}
+
+h1{
+    
+    background-color: gray;
+    padding: 20px ;
+
+}
+p {
+    background-color: #e7e7e7;
+    padding: 20px;
+
+}
+
+label {
+    width: 300px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+input {
+    /*tren duoi trai phai la 10px*/
+    /* tren duoi la 10px , trai phai la 15px*/
+
+    padding: 10px 15px;
+    width: calc( 100% - 300px );
+
+}
+
+div {
+    margin: 20px;
+    white-space: nowrap;
+}
+button {
+    background-color: #22c55e;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+
+}
+
+.result {
+    background-color:rgb(220 252 231) ;
+    color: rgb(21 128 61);
+    border: 1px solid rgb(187 247 208);
+    display: block;
+
+
+}
+
+
+
+
+
+

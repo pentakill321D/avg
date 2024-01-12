@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Tinh diem trung binh</title>
+    <!-- connect css-->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <h1>Tinh diem trung binh ca nam</h1>
+    <p>Nhap diem hoc ki 1 vâ hoc ki 2 de tinh trung binh ca nam cua cac ban</p>
+
+    <div>
+      <label for="avg1">diem hoc ki 1:</label>
+      <input type="number" id="avg1" />
+    </div>
+    <div>
+      <label for="avg2">diem hoc ki 2:</label>
+      <input type="number" id="avg2" />
+    </div>
+    <button onclick="calcAvg()">Xac Nhan</button>
+
+    <p class="result" id="result">
+      Diem trung binh ca nam cua ban la: <strong id="score"></strong>
+      <!--connect javascript-->
+      <script src="./index.js"></script>
+    </p>
+  </body>
+</html>
